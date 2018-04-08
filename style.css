@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+#container {
+    width: 600px;
+    height: 600px;
+    border: 2px dotted black;
+    margin: 0 auto;
+    font-size: 0;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.grid {
+    float: left;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#clear, #gridSize {
+    border: 1px solid black;
+    padding-bottom: 1px;    
+}
+
+.newSquare {
+    opacity: 0.1;
+    position: absolute;
+}
